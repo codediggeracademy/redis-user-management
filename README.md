@@ -10,16 +10,16 @@ To read mode about it [https://redis.io/]
 
 ## Advantages of Redis
 
-###Exceptionally Fast : 
+###Exceptionally Fast 
 Redis is very fast and can perform about 110000 SETs per second, about 81000 GETs per second. You can use the redis-benchmark utility for doing the same on your machine.
 
-###Supports Rich data types : 
+###Supports Rich data types
 Redis natively supports most of the datatypes that most developers already know like list, set, sorted set, hashes. This makes it very easy to solve a variety of problems because we know which problem can be handled better by which data type.
 
-###Operations are atomic : 
+###Operations are atomic 
 All the Redis operations are atomic, which ensures that if two clients concurrently access Redis server will get the updated value.
 
-###MultiUtility Tool : 
+###MultiUtility Tool
 Redis is a multi utility tool and can be used in a number of usecases like caching, messaging-queues (Redis natively supports Publish/ Subscribe ), any short lived data in your application like web application sessions, web page hit counts, etc.  There are a lot of people using Redis and they can be found at http://redis.io/topics/whos-using-redis
 
 ## Getting Started [Based on Mac]
@@ -47,7 +47,7 @@ If it replies “PONG”, then it’s good to go!
 Now lets start our user management project 
 
 ```
-git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
+git clone https://github.com/suwigyarathore/redis-user-management.git
 cd node-redis
 npm install
 npm start
